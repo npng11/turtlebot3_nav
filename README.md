@@ -53,9 +53,9 @@ $ cd ~/catkin_ws && catkin_make
 ```
 
 
-## Demonstration
+## Launch
 
-1. Launch the Turtlebot3 in Gazebo
+1. Launch the autonomous navagation
 
 ``` bash
 $ cd ~/catkin_ws
@@ -63,11 +63,7 @@ $ source devel/setup.bash
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_nav auto_nav.launch
 ```
-
-
-## Verification
-
-1. The robot should navigate to the random generated goal coordinates without colliding obstacles.
+>The robot should start navigate to a random goal coordinates.
 
 
 ## Appendix
