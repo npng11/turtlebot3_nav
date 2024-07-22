@@ -1,8 +1,5 @@
 # Turtlebot3 Burger Autonomous Navigation in Gazebo
 
-Demonstrates autonomous navigation for Turtlebot3 in Gazebo simulation
-
-
 ## Description 
 
 Demonstrates autonomous navigation for Turtlebot3 in Gazebo simulation
@@ -29,14 +26,14 @@ $ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
   ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
 ```
 
-3. Install Turtlebot3 packages
+2. Install Turtlebot3 packages
 ``` bash
 $ sudo apt install ros-noetic-dynamixel-sdk
 $ sudo apt install ros-noetic-turtlebot3-msgs
 $ sudo apt install ros-noetic-turtlebot3
 ```
 
-2. Craete workspace, install simulation package
+3. Craete workspace, install simulation package
 ``` bash
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src/
@@ -44,7 +41,7 @@ $ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulation
 $ cd ~/catkin_ws && catkin_make
 ```
 
-3. Clone this package into the 'src' directory and build
+4. Clone this package into the 'src' directory and build
 
 ``` bash
 $ cd ~/catkin_ws/src
