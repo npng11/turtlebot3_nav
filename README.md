@@ -48,7 +48,7 @@ $ cd ~/catkin_ws && catkin_make
 
 ``` bash
 $ cd ~/catkin_ws/src
-$ git clone -b master https://github.com/npng11/ros_ws.git
+$ git clone -b master https://github.com/npng11/turtlebot3_nav.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
